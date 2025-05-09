@@ -48,7 +48,7 @@ public class MathController {
         return (convertToDouble(number1) + convertToDouble(number2)) / 2;
     }
 
-    @RequestMapping("/squareRoot/{number}")
+    @RequestMapping("/squareroot/{number}")
     public Double squareRoot(@PathVariable("number") String number) throws UnsupportedOperationException {
         if (!isNumeric(number)) {
             throw new UnsupportedOperationException("Please set a numeric value");
