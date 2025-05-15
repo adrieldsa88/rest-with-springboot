@@ -5,7 +5,7 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.4.0</version>
 		<relativePath/>
-		<!-- lookup parent from repository -->
+		<!-- lookup parent from a repository -->
 	</parent>
 	<groupId>br.com.erudio</groupId>
 	<artifactId>rest-with-spring-boot-and-java-erudio</artifactId>
@@ -38,6 +38,15 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents.client5</groupId>
+			<artifactId>httpclient5</artifactId>
+			<version>5.2.1</version>
 		</dependency>
 	</dependencies>
 	<build>
