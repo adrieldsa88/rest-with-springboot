@@ -18,5 +18,7 @@ spring:
     show-sql: false
 
     open-in-view: false
-
+logging:
+  level:
+    https.github.com.Adrieldsa88: DEBUG
 
